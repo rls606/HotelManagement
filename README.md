@@ -1,12 +1,2 @@
 # HotelManagement
-Hotel management API using DDD + CA + CQRS
-
-## Installation
-
-Afin de faire fonctionner le projet, rien n'est requis, la chaine de connection est <b>volontairement</b> laissé afin de faciliter sa mise à disposition. Ainsi, vous avez juste à <b>cloner</b> le projet, et réaliser les étapes suivantes :
-
-1.Lancer le projet API
-   ```sh
-   dotnet run --projet HotelManagement.Api
-   ```
-2.Executer les requêtes dans le dossier "<em>Requests</em>"
+Hotel management API using Domain Driven Design, CQRS pattern and other concepts. The purpose of this project was to learn and apply new concepts seen on [Amichai Mantinband Youtube's channel](https://www.youtube.com/watch?v=8Z5IAkWcnIw&list=PLzYkqgWkHPKDpXETRRsFv2F9ht6XdAF3v)
