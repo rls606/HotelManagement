@@ -37,7 +37,7 @@ public static class DependencyInjection
         this IServiceCollection services)
     {
         services.AddDbContext<HotelManagementDbContext>(options =>
-            options.UseSqlServer("Server=163.172.221.134;Initial Catalog=HotelManagement;User Id=sa;Password=MyPassword123!!;TrustServerCertificate=True;"));
+            options.UseSqlServer());
 
         services.AddScoped<PublishDomainEventsInterceptor>();
         services.AddScoped<IUserRepository, UserRepository>();
